@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comment Section</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <main class="main">
+        <div>
+          <ul class="comments-list"></ul>
+          <div class="comment-box">
+            <p>Добавить комментарий</p>
+            <form class="comment-form">
+              <input
+                class="form-data"
+                type="text"
+                name="name"
+                placeholder="Введите имя"
+                required
+              />
+              <input type="date" name="date" />
+              <textarea
+                name="text"
+                type="text"
+                rows="5"
+                placeholder="Введите комментарий..."
+                required
+              ></textarea>
+              <input
+                type="submit"
+                name="button"
+                class="btn"
+                value="Добавить комментарий"
+              />
+            </form>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

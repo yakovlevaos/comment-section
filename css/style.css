@@ -1,0 +1,186 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f5f8;
+  font-family: "Open Sans", sans-serif;
+}
+
+main {
+  display: block;
+}
+
+
+ul {
+  list-style: none;
+}
+
+
+input {
+  border-radius: 0;
+}
+
+.input {
+  padding: 10px 15px;
+  border: 1px solid #555;
+  border-radius: 15px;
+  letter-spacing: 0.4px;
+}
+
+.btn {
+  display: block;
+  padding: 10px 15px;
+  background-color: transparent;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.btn:hover {
+  background-color: #f1f1f1;
+}
+
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow: hidden;
+  color: #333;
+  line-height: 25px;
+}
+
+.main {
+  flex: 1 1 0;
+  max-width: 800px;
+  margin-inline: auto;
+  padding: 0 15px;
+}
+
+
+.comment {
+  width: 100%;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.comment-field {
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+.comment-section {
+  width: 100%;
+  padding: 10px;
+  
+}
+
+.comment-trash-like {
+  display: flex;
+  justify-content: end;
+  
+}
+
+
+.trash {
+  position: relative;
+  padding-right: auto;
+  display: block;
+  padding: 5px;
+  background-color: transparent;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.trash:hover {
+  background-color: rgb(176, 176, 176);
+}
+.like {
+  position: relative;
+  padding-right: auto;
+  display: block;
+  padding: 5px;
+  background-color: transparent;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.like:hover {
+  background-color: rgb(176, 176, 176);
+}
+
+.comment-box {
+  width: 50%;
+  border: 1px solid #ccc;
+  margin: 50px 0;
+  padding: 10px 20px;
+  font-family: 'poppins' sans-serif;
+  border-radius: 5px;
+  margin-left: 25%;
+  margin-top: 80px;
+  box-shadow: 0px 0px 10px 1px rgb(165, 165, 165);
+}
+
+.comment-box p {
+  text-align: left;
+  font-size: 20px;
+  color: #777;
+}
+
+
+.comment-form input, .comment-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  outline: none;
+  font-size: 18px;
+  font-family: 'poppins', sans-serif;
+  border: 1px solid #ddd;
+  color: #777; 
+
+}
+
+.comment-form button {
+  margin: 10px 0;
+  border: none;
+  background-color: #d0d0d0;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 3px;
+  color: #444;
+
+}
+
+button:hover {
+  color: white;
+  background-color: #444;
+}
+
+.img {
+  width: 20px;
+  height: 20px;
+}
+.img img {
+  width: 100%;
+}
+
+
+
+@media(max-width: 900px) {
+  .comment-box {
+    width: 80%;
+    margin: 5%;
+
+  }
+}
